@@ -23,7 +23,7 @@ export class AccountDto {
   @IsString()
   readonly lastName: string;
 
-  @IsPhoneNumber()
+  @IsPhoneNumber("BR")
   readonly phone: string;
 
   @IsString()

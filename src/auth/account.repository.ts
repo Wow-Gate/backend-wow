@@ -32,7 +32,7 @@ export class AccountRepository extends Repository<Account> {
 
   private accountBannedRepo = getRepository(AccountBanned, 'authConnection');
 
-  async signUp(accountDto: AccountDto, response: Response): Promise<void> {
+  async signUp(accountDto: AccountDto, response: Response): Promise<void> {     
     const {
       username,
       firstName,
