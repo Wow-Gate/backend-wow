@@ -17,6 +17,10 @@ This API support these tools:
 ### Installation
 
 ```
+$ npm install -g @nestjs/cli
+```
+
+```
 $ npm install
 ```
 
